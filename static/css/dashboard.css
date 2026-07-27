@@ -714,3 +714,195 @@
     line-height:1.8;
 
 }
+
+/* ===========================
+   Today's Green Thought Card
+=========================== */
+
+.quote-card{
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+    margin-top:20px;
+    padding:18px 22px;
+
+    border-radius:18px;
+
+    background:linear-gradient(
+        135deg,
+        #e8fff0,
+        #f8fff8
+    );
+
+    border:1px solid rgba(46,125,50,.15);
+
+    box-shadow:0 10px 25px rgba(46,125,50,.08);
+
+    transition:.35s ease;
+}
+
+.quote-card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 35px rgba(46,125,50,.15);
+
+}
+
+.quote-icon{
+
+    width:65px;
+    height:65px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#2e7d32;
+
+    color:white;
+
+    font-size:28px;
+
+    flex-shrink:0;
+
+}
+
+.quote-content h3{
+
+    margin:0;
+
+    color:#1b5e20;
+
+    font-size:20px;
+
+    font-weight:700;
+
+}
+
+.quote-content p{
+
+    margin-top:8px;
+
+    font-size:16px;
+
+    line-height:1.7;
+
+    color:#37474f;
+
+    font-style:italic;
+
+}
+
+/* ==========================
+   Welcome Card
+========================== */
+
+.welcome-card{
+
+    text-align:center;
+
+}
+
+.welcome-card h2{
+
+    font-size:38px;
+
+    color:#118a45;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.welcome-card h2 i{
+
+    margin-right:10px;
+
+}
+
+.welcome-subtitle{
+
+    font-size:20px;
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+.welcome-divider{
+
+    width:120px;
+
+    height:3px;
+
+    background:#18a558;
+
+    margin:20px auto;
+
+    border-radius:20px;
+
+}
+
+.welcome-features{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:15px;
+
+    max-width:650px;
+
+    margin:25px auto;
+
+}
+
+.feature-item{
+
+    background:#f3fff7;
+
+    border:1px solid #cfead9;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.feature-item:hover{
+
+    transform:translateY(-4px);
+
+    background:#18a558;
+
+    color:white;
+
+}
+
+.welcome-quote{
+
+    margin-top:25px;
+
+    font-size:22px;
+
+    font-style:italic;
+
+    font-weight:600;
+
+    color:#118a45;
+
+    line-height:1.8;
+
+}

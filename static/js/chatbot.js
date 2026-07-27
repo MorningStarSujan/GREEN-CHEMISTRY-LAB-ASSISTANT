@@ -12,20 +12,34 @@ document.addEventListener("DOMContentLoaded", () => {
         const formData = new FormData();
         formData.append("question", question.value);
 
-        const response = await fetch("/ask_ai", {
+        // Show loading message
+         answerBox.style.display = "block";
+         answerText.innerHTML = `
+         <div class="ai-loading">
+         <div class="spinner"></div>
+         
+         <h3>🤖 AI Assistant</h3>
+         
+         <p>Analyzing your chemistry question...</p>
+         
+         <small>Please wait a moment.</small>
+         
+         </div>
+         `;
+         
+         const response = await fetch("/ask_ai", {
+            
             method: "POST",
             body: formData
         });
-
         const data = await response.json();
-
-        answerText.textContent = data.answer;
-
-        answerBox.style.display = "block";
-
-        question.value = "";
-        question.focus();
-
+        
+        // Render Markdown
+         answerText.innerHTML = marked.parse(data.answer);
+         
+         question.value = "";
+         question.focus();
+        
+        });
+    
     });
-
-});

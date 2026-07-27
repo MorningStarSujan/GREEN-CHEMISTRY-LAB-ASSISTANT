@@ -1,5 +1,170 @@
 [
     {
+        "time": "28-07-2026 02:40 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Acetone?\""
+    },
+    {
+        "time": "28-07-2026 02:40 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Acetone?\""
+    },
+    {
+        "time": "28-07-2026 02:23 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Is it dangerous?\""
+    },
+    {
+        "time": "28-07-2026 02:23 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Sulfuric Acid?\""
+    },
+    {
+        "time": "28-07-2026 02:23 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Write a Python program.\""
+    },
+    {
+        "time": "28-07-2026 02:22 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Who is Virat Kohli?\""
+    },
+    {
+        "time": "28-07-2026 02:22 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Acetone\""
+    },
+    {
+        "time": "28-07-2026 02:20 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"H2SO4\""
+    },
+    {
+        "time": "28-07-2026 02:20 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Sulfuric Acid?\""
+    },
+    {
+        "time": "28-07-2026 02:10 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Write a Python program.\""
+    },
+    {
+        "time": "28-07-2026 02:10 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Who is Virat Kohli?\""
+    },
+    {
+        "time": "28-07-2026 02:10 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Acetone?\""
+    },
+    {
+        "time": "28-07-2026 01:55 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Write a Python program.\""
+    },
+    {
+        "time": "28-07-2026 01:54 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Who is Virat Kohli?\""
+    },
+    {
+        "time": "28-07-2026 01:53 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Who is Virat Kohli?\""
+    },
+    {
+        "time": "28-07-2026 01:52 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Tell me about Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:51 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain nanotechnology in green chemistry.\""
+    },
+    {
+        "time": "28-07-2026 01:51 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain nanotechnology in green chemistry.\""
+    },
+    {
+        "time": "28-07-2026 01:51 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Tell me about Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain Le Chatelier's Principle.\""
+    },
+    {
+        "time": "28-07-2026 01:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:15 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Green Chemistry?\""
+    },
+    {
+        "time": "28-07-2026 01:15 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:15 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:15 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "28-07-2026 01:15 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
         "time": "27-07-2026 10:29 PM",
         "module": "AI Assistant",
         "activity": "Asked: \"hello\""
@@ -333,55 +498,5 @@
         "time": "26-07-2026 06:13 PM",
         "module": "Chemical Calculator",
         "activity": "Calculated Dilution V\u2082 = 10.740"
-    },
-    {
-        "time": "26-07-2026 06:13 PM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Molarity = 7.635 mol/L"
-    },
-    {
-        "time": "26-07-2026 06:13 PM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Dilution V\u2082 = 10.740"
-    },
-    {
-        "time": "26-07-2026 06:13 PM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Percentage = 116.55%"
-    },
-    {
-        "time": "26-07-2026 06:13 PM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated pH = -5.59"
-    },
-    {
-        "time": "26-07-2026 05:56 PM",
-        "module": "Green Recommendations",
-        "activity": "Viewed Recommendation: Hydrochloric Acid"
-    },
-    {
-        "time": "26-07-2026 05:55 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Ethanol"
-    },
-    {
-        "time": "26-07-2026 05:54 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Ethanol"
-    },
-    {
-        "time": "26-07-2026 05:52 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "26-07-2026 05:50 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"What is Ethanol?\""
-    },
-    {
-        "time": "26-07-2026 05:50 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"What is Ethanol?\""
     }
 ]

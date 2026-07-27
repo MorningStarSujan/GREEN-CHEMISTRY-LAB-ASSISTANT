@@ -1124,3 +1124,94 @@ body{
 
     font-family: "Segoe UI", sans-serif;
 }
+
+.ai-response{
+    line-height:1.8;
+    font-size:16px;
+}
+
+.ai-response h1,
+.ai-response h2,
+.ai-response h3,
+.ai-response h4{
+    color:#178f4e;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.ai-response p{
+    margin:12px 0;
+}
+
+.ai-response ul{
+    padding-left:25px;
+}
+
+.ai-response li{
+    margin:8px 0;
+}
+
+.ai-response code{
+    background:#f3f3f3;
+    padding:2px 6px;
+    border-radius:4px;
+}
+
+.ai-response hr{
+    margin:20px 0;
+}
+
+/* ==========================
+   AI Loading Animation
+========================== */
+
+.ai-loading{
+    text-align:center;
+    padding:35px;
+}
+
+.spinner{
+    width:60px;
+    height:60px;
+
+    margin:auto;
+    margin-bottom:20px;
+
+    border:6px solid #d9d9d9;
+    border-top:6px solid #27ae60;
+
+    border-radius:50%;
+
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+
+0%{
+transform:rotate(0deg);
+}
+
+100%{
+transform:rotate(360deg);
+}
+
+}
+
+.ai-loading h3{
+
+color:#27ae60;
+margin-bottom:10px;
+
+}
+
+.ai-loading p{
+
+font-size:17px;
+
+}
+
+.ai-loading small{
+
+color:#888;
+
+}

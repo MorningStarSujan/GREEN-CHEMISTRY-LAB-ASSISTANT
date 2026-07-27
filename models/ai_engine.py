@@ -5,6 +5,7 @@ from utils.response_formatter import (
     format_green_chemistry,
     format_lab_safety,
 )
+from utils.gemini_service import ask_gemini
 
 FORMATTERS = {
     "green_chemistry": format_green_chemistry,
@@ -23,13 +24,9 @@ class AIEngine:
 
         # Search Knowledge Base
         for topic in KNOWLEDGE.values():
-
             for keyword in topic["keywords"]:
-
                 if keyword in question:
-
                     formatter = FORMATTERS.get(topic["formatter"])
-
                     if formatter:
                         return formatter(topic)
 
@@ -38,41 +35,41 @@ class AIEngine:
 
             name = chemical.get("name", "").lower()
             formula = chemical.get("formula", "").lower()
-
             aliases = [alias.lower() for alias in chemical.get("aliases", [])]
 
+            context = f"""
+Name: {chemical.get('name')}
+Formula: {chemical.get('formula')}
+Category: {chemical.get('category')}
+Description: {chemical.get('description')}
+Hazards: {chemical.get('hazards')}
+Storage: {chemical.get('storage')}
+Disposal: {chemical.get('disposal')}
+Green Alternative: {chemical.get('green_alternative')}
+"""
+
             # Match full chemical name
-            if name in question:
+            if name and name in question:
                 return format_chemical(chemical)
 
             # Match formula
             if formula and formula in question:
-                return format_chemical(chemical)
+                return ask_gemini(question, context)
 
             # Match aliases
             for alias in aliases:
                 if alias in question:
-                    return format_chemical(chemical)
+                    return ask_gemini(question, context)
 
             # Match partial words
             for word in name.split():
                 if len(word) > 3 and word in question:
-                    return format_chemical(chemical)
+                    return ask_gemini(question, context)
 
-        return (
-            "❌ Sorry, I couldn't find that chemical.\n\n"
-            "You can ask me about:\n\n"
-            "• Sulfuric Acid\n"
-            "• Hydrochloric Acid\n"
-            "• Sodium Hydroxide\n"
-            "• Ethanol\n"
-            "• Acetone\n"
-            "• Benzene\n"
-            "• Oxygen\n"
-            "• Hydrogen Peroxide\n\n"
-            "You can also search using:\n"
-            "• Chemical Name\n"
-            "• Formula\n"
-            "• Alias\n"
-            "• Partial Name"
-        )
+        # If nothing was found locally, ask Gemini
+        try:
+            return ask_gemini(question)
+
+        except Exception as e:
+            print("Gemini Error:", e)
+            return "❌ Sorry, I couldn't answer your question because the AI service is currently unavailable."
