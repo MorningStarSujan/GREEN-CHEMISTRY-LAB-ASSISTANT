@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <div class="page-header">
+
+        <h1>🤖 AI Assistant</h1>
+
+        <p>
+            Ask chemistry questions, laboratory safety queries,
+            or green chemistry topics.
+        </p>
+
+    </div>
+
+    <div class="chat-container">
+        
+        <form id="chat-form">
+            
+            <textarea
+            id="question"
+            name="question"
+            rows="5"
+            placeholder="Ask something... Example: Is Sulfuric Acid dangerous?"
+            required
+            ></textarea>
+            
+            <button type="submit">
+                Ask AI
+            
+            </button>
+        
+        </form>
+        
+        <div class="answer-box" id="answer-box" style="display:none;">
+            
+            <h3>🤖 AI Response</h3>
+
+            <pre id="answer-text" class="ai-response"></pre>
+        
+        </div>
+    
+    </div>
+
+</div>
+
+{% endblock %}

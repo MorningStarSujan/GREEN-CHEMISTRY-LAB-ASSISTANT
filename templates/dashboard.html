@@ -1,0 +1,442 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="dashboard-container">
+    
+    <div class="dashboard-bg">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    
+    </div>
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-flask"></i>
+
+            <span>Green Lab</span>
+
+        </div>
+
+        <nav>
+
+            <a href="/dashboard" class="active">
+                <i class="fa-solid fa-house"></i>
+                Dashboard
+            </a>
+
+            <a href="/chatbot">
+                <i class="fa-solid fa-robot"></i>
+                AI Assistant
+            </a>
+
+            <a href="/experiment">
+                <i class="fa-solid fa-vials"></i>
+                Experiments
+            </a>
+
+            <a href="/recommendation">
+                <i class="fa-solid fa-leaf"></i>
+                Green Tips
+            </a>
+
+            <a href="/safety">
+                <i class="fa-solid fa-shield-halved"></i>
+                Safety
+            </a>
+
+            <a href="/calculator">
+                <i class="fa-solid fa-calculator"></i>
+                Calculator
+            </a>
+
+            <a href="/history">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                History
+            </a>
+
+            <a href="/about">
+                <i class="fa-solid fa-circle-info"></i>
+                About
+            </a>
+
+        </nav>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main class="main-content">
+        
+        
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>Green Chemistry Lab Assistant</h1>
+
+                <p>AI Powered Sustainable Laboratory</p>
+
+            </div>
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    placeholder="Search..."
+                >
+
+            </div>
+
+        </header>
+
+        <section class="welcome-card">
+
+            <h2>👋 Welcome!</h2>
+
+            <p>
+
+                Build safer, smarter and greener laboratory
+                experiments with AI-powered recommendations.
+
+            </p>
+
+        </section>
+        
+        <section id="dashboard-content">
+            
+            <!-- Statistics -->
+             
+            <div class="stats-grid">
+                
+                <div class="stat-card">
+                    
+                    <i class="fa-solid fa-flask"></i>
+                    
+                    <h2>{{ experiments_count }}</h2>
+                    
+                    <p>Experiments</p>
+                
+                </div>
+                
+                <div class="stat-card">
+                    
+                    <i class="fa-solid fa-leaf"></i>
+                    
+                    <h2>0</h2>
+                    
+                    <p>Green Alternatives</p>
+                
+                </div>
+                
+                <div class="stat-card">
+                    
+                    <i class="fa-solid fa-shield-halved"></i>
+                    
+                    <h2>{{ safety_count }}</h2>
+                    
+                    <p>Safety Rules</p>
+                
+                </div>
+                
+                <div class="stat-card">
+                    
+                    <i class="fa-solid fa-vials"></i>
+                    
+                    <h2>{{ chemicals_count }}</h2>
+                    
+                    <p>Chemicals</p>
+                
+                </div>
+            
+            </div>
+            
+            <!-- ==========================
+             Quick Actions
+             ========================== -->
+             
+             <section class="quick-actions">
+                
+                <div class="section-title">
+                    <h2>⚡ Quick Actions</h2>
+                    <p>Access all Green Chemistry tools from one place.</p>
+                </div>
+                
+                <div class="action-grid">
+                    
+                    <!-- AI Assistant -->
+                     
+                    <a href="/chatbot" class="action-card ai-card">
+                        
+                        <div class="icon">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        
+                        <h3>AI Assistant</h3>
+                        
+                        <p>
+                            Ask chemistry questions and receive AI-powered
+                            green laboratory recommendations.
+                        </p>
+                        
+                        <span>Open →</span>
+                    
+                    </a>
+                    
+                    <!-- Experiment -->
+                     
+                    <a href="/experiment" class="action-card">
+                        
+                        <div class="icon">
+                            
+                            <i class="fa-solid fa-flask"></i>
+                        
+                        </div>
+                        
+                        <h3>Experiment Guide</h3>
+                        
+                        <p>
+                            
+                            View sustainable laboratory
+                            experiment information.
+                        
+                        </p>
+                        
+                        <span>Open →</span>
+                    
+                    </a>
+                    
+                    <!-- Safety -->
+                     
+                    <a href="/safety" class="action-card">
+                        
+                        <div class="icon">
+                            
+                            <i class="fa-solid fa-shield-halved"></i>
+                        
+                        </div>
+                        
+                        <h3>Safety Checker</h3>
+                        
+                        <p>
+                            
+                            Learn safety precautions
+                            before performing experiments.
+                        
+                        </p>
+                        
+                        <span>Open →</span>
+                    
+                    </a>
+                    
+                    <!-- Recommendation -->
+                     
+                    <a href="/recommendation" class="action-card">
+                        
+                        <div class="icon">
+                            
+                            <i class="fa-solid fa-leaf"></i>
+                        
+                        </div>
+                        
+                        <h3>Green Recommendations</h3>
+                        
+                        <p>
+                            
+                            Discover eco-friendly
+                            alternatives for chemicals.
+                        
+                        </p>
+                        
+                        <span>Open →</span>
+                    
+                    </a>
+                    
+                    <!-- Calculator -->
+                     
+                    <a href="/calculator" class="action-card">
+                        
+                        <div class="icon">
+                            
+                            <i class="fa-solid fa-calculator"></i>
+                        
+                        </div>
+                        
+                        <h3>Chemical Calculator</h3>
+                        
+                        <p>
+                            
+                            Perform laboratory
+                            calculations quickly.
+                        
+                        </p>
+                        
+                        <span>Open →</span>
+                    
+                    </a>
+                    
+                    <!-- History -->
+                     
+                    <a href="/history" class="action-card">
+                        
+                        <div class="icon">
+                            
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                        
+                        </div>
+                        
+                        <h3>History</h3>
+                        
+                        <p>
+                            View previous searches
+                            and AI activities.
+                        
+                        </p>
+                        
+                        <span>Open →</span>
+                    
+                    </a>
+                
+                </div>
+            
+            </section>
+        
+        </section>
+
+        <!-- ==========================
+         Recent Activity
+         ========================== -->
+         
+         <section class="recent-activity">
+            
+            <div class="section-title">
+                <h2>📋 Recent Activity</h2>
+                <p>Your latest activities will appear here.</p>
+            </div>
+            
+            <div class="activity-box">
+                
+                
+                {% if recent_history %}
+
+                {% for item in recent_history %}
+
+                <div class="activity-item">
+
+                    <h4>
+
+                        {% if item.module == "AI Assistant" %}
+                        
+                        🤖
+
+                        {% elif item.module == "Experiment Guide" %}
+                        🧪
+
+                        {% elif item.module == "Safety Checker" %}
+                        🛡️
+
+                        {% elif item.module == "Green Recommendations" %}
+                        🌿
+
+                        {% elif item.module == "Chemical Calculator" %}
+                        🧮
+                        
+                        {% else %}
+                        
+                        📌
+                        {% endif %}
+
+                        {{ item.module }}
+
+                    </h4>
+
+                    <p>{{ item.activity }}</p>
+
+                    <small>{{ item.time }}</small>
+
+                </div>
+
+                <hr>
+
+                {% endfor %}
+
+                {% else %}
+
+                <div class="empty-activity">
+
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+
+                    <h3>No Recent Activity</h3>
+
+                    <p>
+                        Start using the AI Assistant or other tools to
+                        view your recent activity.
+                    </p>
+
+                </div>
+
+                {% endif %}
+
+            </div>
+        
+        </section>
+    
+    </main>
+
+</div>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const counters = document.querySelectorAll(".stat-card h2");
+
+    counters.forEach(counter => {
+
+        const target = parseInt(counter.innerText);
+
+        if (isNaN(target)) return;
+
+        let current = 0;
+
+        const increment = Math.max(1, Math.ceil(target / 40));
+
+        const updateCounter = () => {
+
+            current += increment;
+
+            if (current >= target) {
+
+                counter.innerText = target;
+
+            } else {
+
+                counter.innerText = current;
+
+                requestAnimationFrame(updateCounter);
+
+            }
+
+        };
+
+        updateCounter();
+
+    });
+
+});
+
+</script>
+
+{% endblock %}
+

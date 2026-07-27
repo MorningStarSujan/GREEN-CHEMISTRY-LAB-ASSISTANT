@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Acid-Base Titration",
+        "objective": "Determine the concentration of an acid using a standard base.",
+        "chemicals": ["Hydrochloric Acid", "Sodium Hydroxide", "Phenolphthalein"],
+        "equipment": ["Burette", "Pipette", "Conical Flask"],
+        "procedure": [
+            "Fill the burette with Sodium Hydroxide.",
+            "Take Hydrochloric Acid in the conical flask.",
+            "Add Phenolphthalein indicator.",
+            "Titrate until the solution becomes light pink."
+        ],
+        "safety": [
+            "Wear gloves and goggles.",
+            "Handle acids carefully."
+        ],
+        "green_principle": "Use the minimum amount of chemicals to reduce waste."
+    },
+    {
+        "id": 2,
+        "name": "Preparation of Buffer Solution",
+        "objective": "Prepare a buffer solution to maintain constant pH.",
+        "chemicals": ["Acetic Acid", "Sodium Acetate"],
+        "equipment": ["Beaker", "Glass Rod", "Measuring Cylinder"],
+        "procedure": [
+            "Measure the required chemicals.",
+            "Mix thoroughly.",
+            "Adjust the pH if necessary."
+        ],
+        "safety": [
+            "Wear gloves.",
+            "Avoid skin contact."
+        ],
+        "green_principle": "Reduce unnecessary chemical usage."
+    },
+    {
+        "id": 3,
+        "name": "Ethanol Distillation",
+        "objective": "Separate ethanol using simple distillation.",
+        "chemicals": ["Ethanol", "Water"],
+        "equipment": ["Distillation Flask", "Condenser", "Receiver Flask"],
+        "procedure": [
+            "Heat the ethanol-water mixture.",
+            "Collect condensed ethanol."
+        ],
+        "safety": [
+            "Keep away from flames.",
+            "Work in a ventilated area."
+        ],
+        "green_principle": "Recover solvents for reuse."
+    },
+    {
+        "id": 4,
+        "name": "Water Quality Test",
+        "objective": "Analyze the pH and clarity of water samples.",
+        "chemicals": ["Distilled Water", "Universal Indicator"],
+        "equipment": ["Test Tube", "pH Paper"],
+        "procedure": [
+            "Collect the sample.",
+            "Add indicator.",
+            "Compare the color with the chart."
+        ],
+        "safety": [
+            "Wear gloves.",
+            "Dispose of samples properly."
+        ],
+        "green_principle": "Prevent water contamination."
+    },
+    {
+        "id": 5,
+        "name": "Copper Sulfate Crystal Preparation",
+        "objective": "Prepare copper sulfate crystals by crystallization.",
+        "chemicals": ["Copper Sulfate", "Water"],
+        "equipment": ["Beaker", "Evaporating Dish", "Burner"],
+        "procedure": [
+            "Dissolve copper sulfate in water.",
+            "Heat gently.",
+            "Allow the solution to cool for crystal formation."
+        ],
+        "safety": [
+            "Wear gloves and goggles.",
+            "Avoid inhaling chemical dust."
+        ],
+        "green_principle": "Reuse excess solution whenever possible."
+    }
+]

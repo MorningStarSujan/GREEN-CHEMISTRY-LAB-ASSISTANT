@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <div class="page-header">
+
+        <h1>📜 Activity History</h1>
+
+        <p>
+            View all recent activities performed in the Green Chemistry Lab Assistant.
+        </p>
+
+    </div>
+
+    {% if history %}
+
+        {% for item in history %}
+
+        <div class="details-card">
+
+            <h2>{{ item.module }}</h2>
+
+            <p>
+                <strong>Activity:</strong><br>
+                {{ item.activity }}
+            </p>
+
+            <p>
+                <strong>Time:</strong><br>
+                {{ item.time }}
+            </p>
+
+        </div>
+
+        {% endfor %}
+
+    {% else %}
+
+        <div class="details-card">
+
+            <h2>No History Available</h2>
+
+            <p>
+                No activities have been recorded yet.
+            </p>
+
+        </div>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}

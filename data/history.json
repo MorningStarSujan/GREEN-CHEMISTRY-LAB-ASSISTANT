@@ -1,0 +1,387 @@
+[
+    {
+        "time": "27-07-2026 10:29 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"hello\""
+    },
+    {
+        "time": "27-07-2026 10:29 PM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Molarity = 5.735 mol/L"
+    },
+    {
+        "time": "27-07-2026 10:29 PM",
+        "module": "Green Recommendations",
+        "activity": "Viewed Recommendation: Acetic Acid"
+    },
+    {
+        "time": "27-07-2026 10:28 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Phosphoric Acid"
+    },
+    {
+        "time": "27-07-2026 10:28 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "27-07-2026 07:49 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"hi\""
+    },
+    {
+        "time": "27-07-2026 07:48 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"hi\""
+    },
+    {
+        "time": "27-07-2026 07:31 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Novaium\""
+    },
+    {
+        "time": "27-07-2026 07:30 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Chemical Name\""
+    },
+    {
+        "time": "27-07-2026 07:30 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Novaium\""
+    },
+    {
+        "time": "27-07-2026 07:30 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Hydrogen\""
+    },
+    {
+        "time": "27-07-2026 07:29 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain laboratory safety.\""
+    },
+    {
+        "time": "27-07-2026 07:29 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Green Chemistry?\""
+    },
+    {
+        "time": "27-07-2026 07:17 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Green Chemistry?\""
+    },
+    {
+        "time": "27-07-2026 07:16 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Green Chemistry?\""
+    },
+    {
+        "time": "27-07-2026 06:24 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Hydrogen Peroxide\""
+    },
+    {
+        "time": "27-07-2026 06:15 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Laboratory Safety\""
+    },
+    {
+        "time": "27-07-2026 06:15 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Green Chemistry\""
+    },
+    {
+        "time": "27-07-2026 06:15 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Hydrogen Peroxide\""
+    },
+    {
+        "time": "27-07-2026 06:15 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Ethanol\""
+    },
+    {
+        "time": "27-07-2026 06:14 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "27-07-2026 06:14 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"tell me about Acetone\""
+    },
+    {
+        "time": "27-07-2026 06:13 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Acetone\""
+    },
+    {
+        "time": "27-07-2026 06:13 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Tell me about Ethanol\""
+    },
+    {
+        "time": "27-07-2026 06:13 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "27-07-2026 06:13 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sulfuric Acid\""
+    },
+    {
+        "time": "27-07-2026 05:32 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is green chemistry\""
+    },
+    {
+        "time": "27-07-2026 05:31 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sodium Chloride\""
+    },
+    {
+        "time": "27-07-2026 05:31 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is Sodium Chloride\""
+    },
+    {
+        "time": "27-07-2026 05:31 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Sodium Chloride (NaCl)\""
+    },
+    {
+        "time": "27-07-2026 05:26 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "27-07-2026 05:26 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Acetic Acid\""
+    },
+    {
+        "time": "27-07-2026 05:25 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Acetic Acid\""
+    },
+    {
+        "time": "27-07-2026 05:22 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is  Hydrochloric Acid\""
+    },
+    {
+        "time": "27-07-2026 05:22 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Hydrochloric Acid\""
+    },
+    {
+        "time": "27-07-2026 05:22 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is Sulfuric Acid\""
+    },
+    {
+        "time": "27-07-2026 05:21 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is Sulfuric\""
+    },
+    {
+        "time": "27-07-2026 09:45 AM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Molarity = 0.260 mol/L"
+    },
+    {
+        "time": "27-07-2026 09:45 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Green Chemistry?\""
+    },
+    {
+        "time": "27-07-2026 09:17 AM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Molarity = 1.111 mol/L"
+    },
+    {
+        "time": "27-07-2026 09:16 AM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Hydrochloric Acid"
+    },
+    {
+        "time": "27-07-2026 09:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is green chemistry\""
+    },
+    {
+        "time": "27-07-2026 09:16 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chemistry\""
+    },
+    {
+        "time": "27-07-2026 02:18 AM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Hydrochloric Acid"
+    },
+    {
+        "time": "27-07-2026 02:18 AM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "27-07-2026 02:17 AM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "27-07-2026 02:07 AM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Molarity = 391.269 mol/L"
+    },
+    {
+        "time": "27-07-2026 02:07 AM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Sulfuric Acid"
+    },
+    {
+        "time": "27-07-2026 02:06 AM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "27-07-2026 02:06 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is Green Chemistry\""
+    },
+    {
+        "time": "27-07-2026 12:29 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"tell me about Hydrochloric Acid\""
+    },
+    {
+        "time": "27-07-2026 12:29 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"is sulfuric is dangerous\""
+    },
+    {
+        "time": "27-07-2026 12:28 AM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Preparation of Buffer Solution"
+    },
+    {
+        "time": "27-07-2026 12:28 AM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Molarity = 0.003 mol/L"
+    },
+    {
+        "time": "27-07-2026 12:27 AM",
+        "module": "Green Recommendations",
+        "activity": "Viewed Recommendation: Hydrochloric Acid"
+    },
+    {
+        "time": "27-07-2026 12:27 AM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Preparation of Buffer Solution"
+    },
+    {
+        "time": "27-07-2026 12:27 AM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "26-07-2026 10:01 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "26-07-2026 08:08 PM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Molarity = 0.164 mol/L"
+    },
+    {
+        "time": "26-07-2026 08:07 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Hydrochloric Acid"
+    },
+    {
+        "time": "26-07-2026 08:07 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "26-07-2026 08:07 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is Green Chemistry\""
+    },
+    {
+        "time": "26-07-2026 06:28 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Sulfuric Acid"
+    },
+    {
+        "time": "26-07-2026 06:28 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "26-07-2026 06:27 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Hydrochloric Acid\""
+    },
+    {
+        "time": "26-07-2026 06:27 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chroine\""
+    },
+    {
+        "time": "26-07-2026 06:13 PM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Dilution V\u2082 = 10.740"
+    },
+    {
+        "time": "26-07-2026 06:13 PM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Molarity = 7.635 mol/L"
+    },
+    {
+        "time": "26-07-2026 06:13 PM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Dilution V\u2082 = 10.740"
+    },
+    {
+        "time": "26-07-2026 06:13 PM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Percentage = 116.55%"
+    },
+    {
+        "time": "26-07-2026 06:13 PM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated pH = -5.59"
+    },
+    {
+        "time": "26-07-2026 05:56 PM",
+        "module": "Green Recommendations",
+        "activity": "Viewed Recommendation: Hydrochloric Acid"
+    },
+    {
+        "time": "26-07-2026 05:55 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Ethanol"
+    },
+    {
+        "time": "26-07-2026 05:54 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Ethanol"
+    },
+    {
+        "time": "26-07-2026 05:52 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "26-07-2026 05:50 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Ethanol?\""
+    },
+    {
+        "time": "26-07-2026 05:50 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Ethanol?\""
+    }
+]
