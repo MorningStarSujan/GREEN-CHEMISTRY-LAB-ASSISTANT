@@ -1215,3 +1215,9 @@ font-size:17px;
 color:#888;
 
 }
+
+.thought-logo{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+}
