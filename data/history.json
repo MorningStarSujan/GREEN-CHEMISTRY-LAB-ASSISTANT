@@ -1,5 +1,155 @@
 [
     {
+        "time": "29-07-2026 12:12 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What can you do?\""
+    },
+    {
+        "time": "29-07-2026 12:12 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What PPE should I wear in a chemistry lab?\""
+    },
+    {
+        "time": "29-07-2026 12:11 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Hydrochloric Acid?\""
+    },
+    {
+        "time": "29-07-2026 12:09 AM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated pH = -2.38"
+    },
+    {
+        "time": "29-07-2026 12:08 AM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Percentage = 100.00%"
+    },
+    {
+        "time": "29-07-2026 12:08 AM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Dilution V\u2082 = 210.856"
+    },
+    {
+        "time": "29-07-2026 12:08 AM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Dilution V\u2082 = 210.856"
+    },
+    {
+        "time": "29-07-2026 12:08 AM",
+        "module": "Chemical Calculator",
+        "activity": "Calculated Molarity = 0.101 mol/L"
+    },
+    {
+        "time": "29-07-2026 12:08 AM",
+        "module": "Green Recommendations",
+        "activity": "Viewed Recommendation: Hydrazine"
+    },
+    {
+        "time": "29-07-2026 12:08 AM",
+        "module": "Green Recommendations",
+        "activity": "Viewed Recommendation: Oxalic Acid"
+    },
+    {
+        "time": "28-07-2026 11:58 PM",
+        "module": "Laboratory Safety",
+        "activity": "Viewed Rule: Use Fume Hoods Properly"
+    },
+    {
+        "time": "28-07-2026 11:58 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Citric Acid"
+    },
+    {
+        "time": "28-07-2026 11:56 PM",
+        "module": "Laboratory Safety",
+        "activity": "Viewed Rule: Wear Personal Protective Equipment (PPE)"
+    },
+    {
+        "time": "28-07-2026 11:56 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Hydrochloric Acid"
+    },
+    {
+        "time": "28-07-2026 11:56 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Nitric Acid"
+    },
+    {
+        "time": "28-07-2026 11:56 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Citric Acid"
+    },
+    {
+        "time": "28-07-2026 11:56 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Eco-Friendly Detergent Preparation"
+    },
+    {
+        "time": "28-07-2026 11:56 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Acid-Base Titration"
+    },
+    {
+        "time": "28-07-2026 09:07 PM",
+        "module": "Green Recommendations",
+        "activity": "Viewed Recommendation: Hydrochloric Acid"
+    },
+    {
+        "time": "28-07-2026 09:07 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Battery Electrolyte Conductivity Test"
+    },
+    {
+        "time": "28-07-2026 09:07 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Eco-Friendly Detergent Preparation"
+    },
+    {
+        "time": "28-07-2026 09:07 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Ethanol Distillation"
+    },
+    {
+        "time": "28-07-2026 09:07 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Preparation of Buffer Solution"
+    },
+    {
+        "time": "28-07-2026 06:53 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Preparation of Buffer Solution"
+    },
+    {
+        "time": "28-07-2026 06:53 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Sulfuric Acid"
+    },
+    {
+        "time": "28-07-2026 06:50 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Citric Acid"
+    },
+    {
+        "time": "28-07-2026 06:47 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Nitric Acid"
+    },
+    {
+        "time": "28-07-2026 06:34 PM",
+        "module": "Experiment Guide",
+        "activity": "Viewed: Preparation of Buffer Solution"
+    },
+    {
+        "time": "28-07-2026 06:34 PM",
+        "module": "Green Recommendations",
+        "activity": "Viewed Recommendation: Hydrochloric Acid"
+    },
+    {
+        "time": "28-07-2026 06:33 PM",
+        "module": "Safety Checker",
+        "activity": "Viewed Safety: Sulfuric Acid"
+    },
+    {
         "time": "28-07-2026 02:40 AM",
         "module": "AI Assistant",
         "activity": "Asked: \"What is Acetone?\""
@@ -348,155 +498,5 @@
         "time": "27-07-2026 05:21 PM",
         "module": "AI Assistant",
         "activity": "Asked: \"what is Sulfuric\""
-    },
-    {
-        "time": "27-07-2026 09:45 AM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Molarity = 0.260 mol/L"
-    },
-    {
-        "time": "27-07-2026 09:45 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"What is Green Chemistry?\""
-    },
-    {
-        "time": "27-07-2026 09:17 AM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Molarity = 1.111 mol/L"
-    },
-    {
-        "time": "27-07-2026 09:16 AM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Hydrochloric Acid"
-    },
-    {
-        "time": "27-07-2026 09:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"what is green chemistry\""
-    },
-    {
-        "time": "27-07-2026 09:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"what is chemistry\""
-    },
-    {
-        "time": "27-07-2026 02:18 AM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Hydrochloric Acid"
-    },
-    {
-        "time": "27-07-2026 02:18 AM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "27-07-2026 02:17 AM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "27-07-2026 02:07 AM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Molarity = 391.269 mol/L"
-    },
-    {
-        "time": "27-07-2026 02:07 AM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Sulfuric Acid"
-    },
-    {
-        "time": "27-07-2026 02:06 AM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "27-07-2026 02:06 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"what is Green Chemistry\""
-    },
-    {
-        "time": "27-07-2026 12:29 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"tell me about Hydrochloric Acid\""
-    },
-    {
-        "time": "27-07-2026 12:29 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"is sulfuric is dangerous\""
-    },
-    {
-        "time": "27-07-2026 12:28 AM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Preparation of Buffer Solution"
-    },
-    {
-        "time": "27-07-2026 12:28 AM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Molarity = 0.003 mol/L"
-    },
-    {
-        "time": "27-07-2026 12:27 AM",
-        "module": "Green Recommendations",
-        "activity": "Viewed Recommendation: Hydrochloric Acid"
-    },
-    {
-        "time": "27-07-2026 12:27 AM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Preparation of Buffer Solution"
-    },
-    {
-        "time": "27-07-2026 12:27 AM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "26-07-2026 10:01 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "26-07-2026 08:08 PM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Molarity = 0.164 mol/L"
-    },
-    {
-        "time": "26-07-2026 08:07 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Hydrochloric Acid"
-    },
-    {
-        "time": "26-07-2026 08:07 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "26-07-2026 08:07 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"what is Green Chemistry\""
-    },
-    {
-        "time": "26-07-2026 06:28 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Sulfuric Acid"
-    },
-    {
-        "time": "26-07-2026 06:28 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "26-07-2026 06:27 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Hydrochloric Acid\""
-    },
-    {
-        "time": "26-07-2026 06:27 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"what is chroine\""
-    },
-    {
-        "time": "26-07-2026 06:13 PM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Dilution V\u2082 = 10.740"
     }
 ]

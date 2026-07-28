@@ -1,10 +1,14 @@
+import os
+
 from flask import Flask, render_template, request, jsonify
 from utils.file_handler import load_json, add_history
 from utils.chemical_loader import load_all_chemicals
 from models.ai_engine import AIEngine
+from models.safety_checker import SafetyChecker
 
 app = Flask(__name__)
 ai = AIEngine()
+safety_checker = SafetyChecker()
 
 
 @app.route("/")
@@ -20,9 +24,15 @@ def dashboard():
     safety = load_json("safety_rules.json")
     history = load_json("history.json")
 
+    green_count = sum(1 for chemical in chemicals if chemical.get("green_alternative"))
+
+    print("Total Chemicals:", len(chemicals))
+    print("Green Alternatives:", green_count)
+
     return render_template(
         "dashboard.html",
         experiments_count=len(experiments),
+        green_count=green_count,
         chemicals_count=len(chemicals),
         safety_count=len(safety),
         history_count=len(history),
@@ -128,8 +138,11 @@ def recommendation_details(index):
 def safety():
 
     chemicals = load_all_chemicals()
+    safety_rules = safety_checker.get_all_rules()
 
-    return render_template("safety.html", chemicals=chemicals)
+    return render_template(
+        "safety.html", chemicals=chemicals, safety_rules=safety_rules
+    )
 
 
 @app.route("/safety/<int:index>")
@@ -145,6 +158,19 @@ def safety_details(index):
     add_history("Safety Checker", f'Viewed Safety: {chemical["name"]}')
 
     return render_template("safety_details.html", chemical=chemical)
+
+
+@app.route("/safety-rule/<int:rule_id>")
+def safety_rule_details(rule_id):
+
+    rule = safety_checker.get_rule_by_id(rule_id)
+
+    if not rule:
+        return "Safety rule not found", 404
+
+    add_history("Laboratory Safety", f'Viewed Rule: {rule["title"]}')
+
+    return render_template("safety_rule_details.html", rule=rule)
 
 
 @app.route("/calculator")
@@ -164,8 +190,6 @@ def history():
 def about():
     return render_template("about.html")
 
-
-import os
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=False)
