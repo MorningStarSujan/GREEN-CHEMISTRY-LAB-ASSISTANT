@@ -30,22 +30,8 @@ def save_json(filename, data):
 
 
 def add_history(module, activity):
-
-    history = load_json("history.json")
-
-    history.insert(
-        0,
-        {
-            "time": datetime.now().strftime("%d-%m-%Y %I:%M %p"),
-            "module": module,
-            "activity": activity,
-        },
-    )
-
-    # Keep only the latest 100 records
-    history = history[:100]
-
-    save_json("history.json", history)
+    # Vercel does not support persistent local file writes.
+    return
 
 
 def get_history():
@@ -53,4 +39,5 @@ def get_history():
 
 
 def clear_history():
-    save_json("history.json", [])
+    # Vercel does not support persistent local file writes.
+    return
