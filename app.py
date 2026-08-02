@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, Response
 from utils.file_handler import load_json, add_history
 from utils.chemical_loader import load_all_chemicals
 from models.ai_engine import AIEngine
@@ -69,6 +69,24 @@ def ask_ai():
     add_history("AI Assistant", f'Asked: "{question}"')
 
     return jsonify({"answer": answer})
+
+
+@app.route("/ask_ai_stream", methods=["POST"])
+def ask_ai_stream():
+
+    question = request.form.get("question", "").strip()
+
+    if not question:
+        return Response("Please enter a question.", mimetype="text/plain")
+
+    def generate():
+
+        for chunk in ai.get_response_stream(question):
+            yield chunk
+
+    add_history("AI Assistant", f'Asked: "{question}"')
+
+    return Response(generate(), mimetype="text/plain")
 
 
 @app.route("/add_history", methods=["POST"])

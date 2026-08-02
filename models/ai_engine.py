@@ -5,7 +5,7 @@ from utils.response_formatter import (
     format_green_chemistry,
     format_lab_safety,
 )
-from utils.gemini_service import ask_gemini
+from utils.gemini_service import ask_gemini, ask_gemini_stream
 
 FORMATTERS = {
     "green_chemistry": format_green_chemistry,
@@ -18,24 +18,38 @@ class AIEngine:
     def __init__(self):
         self.chemicals = load_all_chemicals()
 
-    def get_response(self, question):
+    def normalize(self, text):
+        return (
+            text.lower()
+            .replace("₀", "0")
+            .replace("₁", "1")
+            .replace("₂", "2")
+            .replace("₃", "3")
+            .replace("₄", "4")
+            .replace("₅", "5")
+            .replace("₆", "6")
+            .replace("₇", "7")
+            .replace("₈", "8")
+            .replace("₉", "9")
+            .strip()
+        )
 
-        question = question.lower().strip()
+    def find_local_match(self, question):
 
-        # Search Knowledge Base
+        # Knowledge Base
         for topic in KNOWLEDGE.values():
             for keyword in topic["keywords"]:
                 if keyword in question:
                     formatter = FORMATTERS.get(topic["formatter"])
                     if formatter:
-                        return formatter(topic)
+                        return formatter(topic), None
 
-        # Search Chemical Database
+        # Chemical Database
         for chemical in self.chemicals:
 
             name = chemical.get("name", "").lower()
             formula = chemical.get("formula", "").lower()
-            aliases = [alias.lower() for alias in chemical.get("aliases", [])]
+            aliases = [a.lower() for a in chemical.get("aliases", [])]
 
             context = f"""
 Name: {chemical.get('name')}
@@ -48,28 +62,41 @@ Disposal: {chemical.get('disposal')}
 Green Alternative: {chemical.get('green_alternative')}
 """
 
-            # Match full chemical name
             if name and name in question:
-                return format_chemical(chemical)
+                return format_chemical(chemical), None
 
-            # Match formula
             if formula and formula in question:
-                return ask_gemini(question, context)
+                return None, context
 
-            # Match aliases
             for alias in aliases:
                 if alias in question:
-                    return ask_gemini(question, context)
+                    return None, context
 
-            # Match partial words
             for word in name.split():
                 if len(word) > 3 and word in question:
-                    return ask_gemini(question, context)
+                    return None, context
 
-        # If nothing was found locally, ask Gemini
-        try:
-            return ask_gemini(question)
+        return None, None
 
-        except Exception as e:
-            print("Gemini Error:", e)
-            return "❌ Sorry, I couldn't answer your question because the AI service is currently unavailable."
+    def get_response(self, question):
+
+        question = self.normalize(question)
+
+        local_answer, context = self.find_local_match(question)
+
+        if local_answer:
+            return local_answer
+
+        return ask_gemini(question, context)
+
+    def get_response_stream(self, question):
+
+        question = self.normalize(question)
+
+        local_answer, context = self.find_local_match(question)
+
+        if local_answer:
+            yield local_answer
+            return
+
+        yield from ask_gemini_stream(question, context)

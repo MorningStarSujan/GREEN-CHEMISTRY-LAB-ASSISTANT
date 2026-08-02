@@ -16,32 +16,89 @@
     </div>
 
     <div class="chat-container">
-        
-        <form id="chat-form">
-            
-            <textarea
-            id="question"
-            name="question"
-            rows="5"
-            placeholder="Ask something... Example: Is Sulfuric Acid dangerous?"
-            required
-            ></textarea>
-            
-            <button type="submit">
-                Ask AI
-            
-            </button>
-        
-        </form>
-        
-        <div class="answer-box" id="answer-box" style="display:none;">
-            
-            <h3>🤖 AI Response</h3>
 
-            <div id="answer-text" class="ai-response"></div>
-        
+        <div id="chat-history" class="chat-history" style="display: none;"></div>
+
+        <div id="welcome-screen" class="welcome-screen">
+
+            <div class="welcome-layout">
+
+                <div class="echo-side">
+
+                    <img
+                        src="{{ url_for('static', filename='images/mascot/idle/echo_idle.png') }}"
+                        alt="Echo"
+                        class="echo-idle">
+
+                </div>
+
+                <div class="welcome-content">
+
+                    <h2>Green Chemistry Lab Assistant</h2>
+
+                    <p class="welcome-text">
+
+                        Hello! 👋
+
+                        <br><br>
+
+                        I'm <strong>Echo</strong>, your intelligent laboratory assistant.
+
+                        <br><br>
+
+                        I can help you with:
+
+                    </p>
+
+                    <div class="welcome-list">
+
+                        <div>🧪 Chemistry Concepts</div>
+
+                        <div>⚗️ Chemical Information</div>
+
+                        <div>🛡️ Laboratory Safety</div>
+
+                        <div>🌱 Green Chemistry</div>
+
+                        <div>♻️ Chemical Waste Disposal</div>
+
+                    </div>
+
+                    <p class="welcome-footer">
+
+                        Start typing your question below to begin.
+
+                    </p>
+
+                </div>
+
+            </div>
+
         </div>
-    
+
+        <form id="chat-form">
+
+        <div class="chat-input-wrapper">
+
+            <textarea
+                id="question"
+                name="question"
+                rows="1"
+                placeholder="Ask a chemistry question..."
+                required></textarea>
+
+            <button
+                type="submit"
+                class="send-btn">
+
+                ➜
+
+            </button>
+
+        </div>
+
+    </form>
+
     </div>
 
 </div>

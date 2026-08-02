@@ -1,502 +1,502 @@
 [
     {
-        "time": "29-07-2026 12:12 AM",
+        "time": "03-08-2026 12:54 AM",
         "module": "AI Assistant",
-        "activity": "Asked: \"What can you do?\""
+        "activity": "Asked: \"Explain sodium chloride.\""
     },
     {
-        "time": "29-07-2026 12:12 AM",
+        "time": "03-08-2026 12:54 AM",
         "module": "AI Assistant",
-        "activity": "Asked: \"What PPE should I wear in a chemistry lab?\""
+        "activity": "Asked: \"What is H2O?\""
     },
     {
-        "time": "29-07-2026 12:11 AM",
+        "time": "03-08-2026 12:39 AM",
         "module": "AI Assistant",
-        "activity": "Asked: \"What is Hydrochloric Acid?\""
+        "activity": "Asked: \"o2\""
     },
     {
-        "time": "29-07-2026 12:09 AM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated pH = -2.38"
-    },
-    {
-        "time": "29-07-2026 12:08 AM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Percentage = 100.00%"
-    },
-    {
-        "time": "29-07-2026 12:08 AM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Dilution V\u2082 = 210.856"
-    },
-    {
-        "time": "29-07-2026 12:08 AM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Dilution V\u2082 = 210.856"
-    },
-    {
-        "time": "29-07-2026 12:08 AM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Molarity = 0.101 mol/L"
-    },
-    {
-        "time": "29-07-2026 12:08 AM",
-        "module": "Green Recommendations",
-        "activity": "Viewed Recommendation: Hydrazine"
-    },
-    {
-        "time": "29-07-2026 12:08 AM",
-        "module": "Green Recommendations",
-        "activity": "Viewed Recommendation: Oxalic Acid"
-    },
-    {
-        "time": "28-07-2026 11:58 PM",
-        "module": "Laboratory Safety",
-        "activity": "Viewed Rule: Use Fume Hoods Properly"
-    },
-    {
-        "time": "28-07-2026 11:58 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Citric Acid"
-    },
-    {
-        "time": "28-07-2026 11:56 PM",
-        "module": "Laboratory Safety",
-        "activity": "Viewed Rule: Wear Personal Protective Equipment (PPE)"
-    },
-    {
-        "time": "28-07-2026 11:56 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Hydrochloric Acid"
-    },
-    {
-        "time": "28-07-2026 11:56 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Nitric Acid"
-    },
-    {
-        "time": "28-07-2026 11:56 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Citric Acid"
-    },
-    {
-        "time": "28-07-2026 11:56 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Eco-Friendly Detergent Preparation"
-    },
-    {
-        "time": "28-07-2026 11:56 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "28-07-2026 09:07 PM",
-        "module": "Green Recommendations",
-        "activity": "Viewed Recommendation: Hydrochloric Acid"
-    },
-    {
-        "time": "28-07-2026 09:07 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Battery Electrolyte Conductivity Test"
-    },
-    {
-        "time": "28-07-2026 09:07 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Eco-Friendly Detergent Preparation"
-    },
-    {
-        "time": "28-07-2026 09:07 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Ethanol Distillation"
-    },
-    {
-        "time": "28-07-2026 09:07 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Preparation of Buffer Solution"
-    },
-    {
-        "time": "28-07-2026 06:53 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Preparation of Buffer Solution"
-    },
-    {
-        "time": "28-07-2026 06:53 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Sulfuric Acid"
-    },
-    {
-        "time": "28-07-2026 06:50 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Citric Acid"
-    },
-    {
-        "time": "28-07-2026 06:47 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Nitric Acid"
-    },
-    {
-        "time": "28-07-2026 06:34 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Preparation of Buffer Solution"
-    },
-    {
-        "time": "28-07-2026 06:34 PM",
-        "module": "Green Recommendations",
-        "activity": "Viewed Recommendation: Hydrochloric Acid"
-    },
-    {
-        "time": "28-07-2026 06:33 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Sulfuric Acid"
-    },
-    {
-        "time": "28-07-2026 02:40 AM",
+        "time": "03-08-2026 12:39 AM",
         "module": "AI Assistant",
-        "activity": "Asked: \"What is Acetone?\""
+        "activity": "Asked: \"hcl\""
     },
     {
-        "time": "28-07-2026 02:40 AM",
+        "time": "03-08-2026 12:39 AM",
         "module": "AI Assistant",
-        "activity": "Asked: \"What is Acetone?\""
+        "activity": "Asked: \"acid\""
     },
     {
-        "time": "28-07-2026 02:23 AM",
+        "time": "03-08-2026 12:39 AM",
         "module": "AI Assistant",
-        "activity": "Asked: \"Is it dangerous?\""
+        "activity": "Asked: \"acd\""
     },
     {
-        "time": "28-07-2026 02:23 AM",
+        "time": "03-08-2026 12:39 AM",
         "module": "AI Assistant",
-        "activity": "Asked: \"What is Sulfuric Acid?\""
+        "activity": "Asked: \"what is sulphuric acid\""
     },
     {
-        "time": "28-07-2026 02:23 AM",
+        "time": "03-08-2026 12:39 AM",
         "module": "AI Assistant",
-        "activity": "Asked: \"Write a Python program.\""
+        "activity": "Asked: \"what is h2o\""
     },
     {
-        "time": "28-07-2026 02:22 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Who is Virat Kohli?\""
-    },
-    {
-        "time": "28-07-2026 02:22 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Acetone\""
-    },
-    {
-        "time": "28-07-2026 02:20 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"H2SO4\""
-    },
-    {
-        "time": "28-07-2026 02:20 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"What is Sulfuric Acid?\""
-    },
-    {
-        "time": "28-07-2026 02:10 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Write a Python program.\""
-    },
-    {
-        "time": "28-07-2026 02:10 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Who is Virat Kohli?\""
-    },
-    {
-        "time": "28-07-2026 02:10 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"What is Acetone?\""
-    },
-    {
-        "time": "28-07-2026 01:55 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Write a Python program.\""
-    },
-    {
-        "time": "28-07-2026 01:54 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Who is Virat Kohli?\""
-    },
-    {
-        "time": "28-07-2026 01:53 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Who is Virat Kohli?\""
-    },
-    {
-        "time": "28-07-2026 01:52 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Tell me about Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:51 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Explain nanotechnology in green chemistry.\""
-    },
-    {
-        "time": "28-07-2026 01:51 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Explain nanotechnology in green chemistry.\""
-    },
-    {
-        "time": "28-07-2026 01:51 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Tell me about Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Explain Le Chatelier's Principle.\""
-    },
-    {
-        "time": "28-07-2026 01:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:16 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:15 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"What is Green Chemistry?\""
-    },
-    {
-        "time": "28-07-2026 01:15 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:15 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:15 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "28-07-2026 01:15 AM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "27-07-2026 10:29 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"hello\""
-    },
-    {
-        "time": "27-07-2026 10:29 PM",
-        "module": "Chemical Calculator",
-        "activity": "Calculated Molarity = 5.735 mol/L"
-    },
-    {
-        "time": "27-07-2026 10:29 PM",
-        "module": "Green Recommendations",
-        "activity": "Viewed Recommendation: Acetic Acid"
-    },
-    {
-        "time": "27-07-2026 10:28 PM",
-        "module": "Safety Checker",
-        "activity": "Viewed Safety: Phosphoric Acid"
-    },
-    {
-        "time": "27-07-2026 10:28 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
-    },
-    {
-        "time": "27-07-2026 07:49 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"hi\""
-    },
-    {
-        "time": "27-07-2026 07:48 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"hi\""
-    },
-    {
-        "time": "27-07-2026 07:31 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Novaium\""
-    },
-    {
-        "time": "27-07-2026 07:30 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Chemical Name\""
-    },
-    {
-        "time": "27-07-2026 07:30 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Novaium\""
-    },
-    {
-        "time": "27-07-2026 07:30 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Hydrogen\""
-    },
-    {
-        "time": "27-07-2026 07:29 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Explain laboratory safety.\""
-    },
-    {
-        "time": "27-07-2026 07:29 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"What is Green Chemistry?\""
-    },
-    {
-        "time": "27-07-2026 07:17 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"What is Green Chemistry?\""
-    },
-    {
-        "time": "27-07-2026 07:16 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"What is Green Chemistry?\""
-    },
-    {
-        "time": "27-07-2026 06:24 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Hydrogen Peroxide\""
-    },
-    {
-        "time": "27-07-2026 06:15 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Laboratory Safety\""
-    },
-    {
-        "time": "27-07-2026 06:15 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Green Chemistry\""
-    },
-    {
-        "time": "27-07-2026 06:15 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Hydrogen Peroxide\""
-    },
-    {
-        "time": "27-07-2026 06:15 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Ethanol\""
-    },
-    {
-        "time": "27-07-2026 06:14 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "27-07-2026 06:14 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"tell me about Acetone\""
-    },
-    {
-        "time": "27-07-2026 06:13 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Acetone\""
-    },
-    {
-        "time": "27-07-2026 06:13 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Tell me about Ethanol\""
-    },
-    {
-        "time": "27-07-2026 06:13 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "27-07-2026 06:13 PM",
-        "module": "AI Assistant",
-        "activity": "Asked: \"Sulfuric Acid\""
-    },
-    {
-        "time": "27-07-2026 05:32 PM",
+        "time": "03-08-2026 12:38 AM",
         "module": "AI Assistant",
         "activity": "Asked: \"what is green chemistry\""
     },
     {
-        "time": "27-07-2026 05:31 PM",
+        "time": "02-08-2026 07:45 PM",
         "module": "AI Assistant",
-        "activity": "Asked: \"Sodium Chloride\""
+        "activity": "Asked: \"what is h2o\""
     },
     {
-        "time": "27-07-2026 05:31 PM",
+        "time": "02-08-2026 07:45 PM",
         "module": "AI Assistant",
-        "activity": "Asked: \"what is Sodium Chloride\""
+        "activity": "Asked: \"what is h20\""
     },
     {
-        "time": "27-07-2026 05:31 PM",
+        "time": "02-08-2026 07:44 PM",
         "module": "AI Assistant",
-        "activity": "Asked: \"Sodium Chloride (NaCl)\""
+        "activity": "Asked: \"what is h20\""
     },
     {
-        "time": "27-07-2026 05:26 PM",
-        "module": "Experiment Guide",
-        "activity": "Viewed: Acid-Base Titration"
+        "time": "02-08-2026 07:43 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H2O?\""
     },
     {
-        "time": "27-07-2026 05:26 PM",
+        "time": "02-08-2026 07:41 PM",
         "module": "AI Assistant",
-        "activity": "Asked: \"Acetic Acid\""
+        "activity": "Asked: \"what is h2o\""
     },
     {
-        "time": "27-07-2026 05:25 PM",
+        "time": "02-08-2026 07:38 PM",
         "module": "AI Assistant",
-        "activity": "Asked: \"Acetic Acid\""
+        "activity": "Asked: \"what is h2o\""
     },
     {
-        "time": "27-07-2026 05:22 PM",
+        "time": "02-08-2026 07:22 PM",
         "module": "AI Assistant",
-        "activity": "Asked: \"what is  Hydrochloric Acid\""
+        "activity": "Asked: \"what is h2o\""
     },
     {
-        "time": "27-07-2026 05:22 PM",
+        "time": "02-08-2026 07:22 PM",
         "module": "AI Assistant",
-        "activity": "Asked: \"Hydrochloric Acid\""
+        "activity": "Asked: \"what is h2o\""
     },
     {
-        "time": "27-07-2026 05:22 PM",
+        "time": "02-08-2026 07:21 PM",
         "module": "AI Assistant",
-        "activity": "Asked: \"what is Sulfuric Acid\""
+        "activity": "Asked: \"What is Green Chemistry?\""
     },
     {
-        "time": "27-07-2026 05:21 PM",
+        "time": "02-08-2026 05:35 PM",
         "module": "AI Assistant",
-        "activity": "Asked: \"what is Sulfuric\""
+        "activity": "Asked: \"What is HCl?\""
+    },
+    {
+        "time": "02-08-2026 05:32 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Sulfuric Acid?\""
+    },
+    {
+        "time": "02-08-2026 05:32 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Sulfuric Acid?\""
+    },
+    {
+        "time": "02-08-2026 05:31 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Sulfuric Acid?\""
+    },
+    {
+        "time": "02-08-2026 05:31 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Sulfuric Acid?\""
+    },
+    {
+        "time": "02-08-2026 05:30 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Sulfuric Acid?\""
+    },
+    {
+        "time": "02-08-2026 04:19 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain the history of green chemistry.\""
+    },
+    {
+        "time": "02-08-2026 04:18 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Why is green chemistry important for climate change?\""
+    },
+    {
+        "time": "02-08-2026 04:18 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid\""
+    },
+    {
+        "time": "02-08-2026 04:10 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is water?\""
+    },
+    {
+        "time": "02-08-2026 03:55 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is water?\""
+    },
+    {
+        "time": "02-08-2026 03:53 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"How should hydrochloric acid be stored?\""
+    },
+    {
+        "time": "02-08-2026 03:52 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"List the 12 principles of Green Chemistry.\r\nHow should hydrochloric acid be stored?\""
+    },
+    {
+        "time": "02-08-2026 03:51 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"How should hydrochloric acid be stored?\""
+    },
+    {
+        "time": "02-08-2026 03:50 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"List the 12 principles of Green Chemistry.\r\nHow should hydrochloric acid be stored?\""
+    },
+    {
+        "time": "02-08-2026 03:50 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"List the 12 principles of Green Chemistry.\""
+    },
+    {
+        "time": "02-08-2026 03:49 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid\""
+    },
+    {
+        "time": "02-08-2026 03:49 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is water?\""
+    },
+    {
+        "time": "02-08-2026 03:28 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is h2o\""
+    },
+    {
+        "time": "02-08-2026 03:28 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is Green Chemistry\""
+    },
+    {
+        "time": "02-08-2026 03:27 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is green\""
+    },
+    {
+        "time": "02-08-2026 03:07 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid.\""
+    },
+    {
+        "time": "02-08-2026 03:06 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid.\""
+    },
+    {
+        "time": "02-08-2026 03:06 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid.\""
+    },
+    {
+        "time": "02-08-2026 03:05 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid.\""
+    },
+    {
+        "time": "02-08-2026 03:04 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid.\""
+    },
+    {
+        "time": "02-08-2026 03:03 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid.\""
+    },
+    {
+        "time": "02-08-2026 03:03 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is sodium chloride?\""
+    },
+    {
+        "time": "02-08-2026 03:01 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is water?\""
+    },
+    {
+        "time": "02-08-2026 02:56 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is water?\""
+    },
+    {
+        "time": "02-08-2026 02:56 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is water?\""
+    },
+    {
+        "time": "02-08-2026 02:52 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is o2\""
+    },
+    {
+        "time": "02-08-2026 02:51 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is water?\""
+    },
+    {
+        "time": "02-08-2026 02:51 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid.\""
+    },
+    {
+        "time": "02-08-2026 02:51 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid.\""
+    },
+    {
+        "time": "02-08-2026 02:51 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain sulfuric acid.\r\nList the 12 principles of green chemistry\""
+    },
+    {
+        "time": "02-08-2026 02:39 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chemistry.\""
+    },
+    {
+        "time": "02-08-2026 02:37 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is green chemistry.\""
+    },
+    {
+        "time": "02-08-2026 02:34 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chemistry\""
+    },
+    {
+        "time": "02-08-2026 12:08 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"How should chemicals be stored in a laboratory?\""
+    },
+    {
+        "time": "02-08-2026 12:07 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Ethanol?\""
+    },
+    {
+        "time": "02-08-2026 12:07 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is green chemistry.\""
+    },
+    {
+        "time": "02-08-2026 11:54 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chemistry\""
+    },
+    {
+        "time": "02-08-2026 11:43 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is pH?\r\n\r\nExplain molarity.\r\n\r\nWhat is oxidation?\r\n\r\nWhat is reduction?\r\n\r\nWhat is an acid?\r\n\r\nWhat is a base?\r\n\r\nExplain chemical equilibrium.\r\n\r\nWhat is titration?\r\n\r\nWhat is a catalyst?\""
+    },
+    {
+        "time": "02-08-2026 11:43 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Why is H\u2082SO\u2084 dangerous?\r\n\r\nCompare H\u2082SO\u2084 and HCl.\r\n\r\nCan sulfuric acid react with water?\r\n\r\nExplain chemistry to a 10-year-old.\r\n\r\nSummarize Green Chemistry in one paragraph.\r\n\r\nGive me a short answer.\r\n\r\nGive me a detailed explanation.\r\n\r\nCan you explain using bullet points?\""
+    },
+    {
+        "time": "02-08-2026 11:42 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H\u2082SO\u2084?\r\n\r\nIs it dangerous?\r\n\r\nHow should I store it?\r\n\r\nWhat is its green alternative?\""
+    },
+    {
+        "time": "02-08-2026 11:42 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Why is sulfuric acid considered hazardous?\""
+    },
+    {
+        "time": "02-08-2026 11:42 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Compare hydrochloric acid and sulfuric acid.\""
+    },
+    {
+        "time": "02-08-2026 11:41 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Suggest a greener alternative for benzene.\""
+    },
+    {
+        "time": "02-08-2026 11:41 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"1. What is H\u2082SO\u2084?\r\n2. Is it dangerous?\r\n3. How should I store it?\r\n4. What PPE is required?\r\n5. Is there a greener alternative?\r\n6. How should I dispose of it?\r\n7. Summarize everything in 5 points.\""
+    },
+    {
+        "time": "02-08-2026 11:40 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Why is laboratory safety important?\""
+    },
+    {
+        "time": "02-08-2026 11:36 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Why is sulfuric acid considered hazardous?\""
+    },
+    {
+        "time": "02-08-2026 11:35 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Sulfuric Acid?\""
+    },
+    {
+        "time": "02-08-2026 11:32 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"hello\""
+    },
+    {
+        "time": "02-08-2026 11:32 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"is chlorine is safe\""
+    },
+    {
+        "time": "02-08-2026 11:31 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chemistry.\""
+    },
+    {
+        "time": "02-08-2026 11:23 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is co2\""
+    },
+    {
+        "time": "02-08-2026 11:22 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is liquid\""
+    },
+    {
+        "time": "02-08-2026 11:22 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain Green Chemistry.\""
+    },
+    {
+        "time": "02-08-2026 11:20 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H\u2082SO\u2084?\""
+    },
+    {
+        "time": "02-08-2026 11:19 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is o2\""
+    },
+    {
+        "time": "02-08-2026 11:19 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is 02\""
+    },
+    {
+        "time": "02-08-2026 11:19 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is green chemistry\""
+    },
+    {
+        "time": "02-08-2026 11:18 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is green chemistry.\""
+    },
+    {
+        "time": "02-08-2026 10:53 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chemistry?\""
+    },
+    {
+        "time": "02-08-2026 10:52 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chemistry.\""
+    },
+    {
+        "time": "02-08-2026 10:52 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chemistry?\""
+    },
+    {
+        "time": "01-08-2026 11:50 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is chemistry.\""
+    },
+    {
+        "time": "01-08-2026 09:18 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is Chemistry?\""
+    },
+    {
+        "time": "01-08-2026 09:03 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H\u2082SO\u2084?\""
+    },
+    {
+        "time": "01-08-2026 08:59 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H\u2082SO\u2084?\r\nWhat is H2SO4?\r\nTell me about CO\u2082\r\nExplain NH\u2083\""
+    },
+    {
+        "time": "01-08-2026 08:41 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H\u2082SO\u2084?\""
+    },
+    {
+        "time": "01-08-2026 08:41 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H\u2082SO\u2084?\""
+    },
+    {
+        "time": "01-08-2026 08:36 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is green chemistry?\""
+    },
+    {
+        "time": "01-08-2026 08:35 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"what is Chemistry ?\""
+    },
+    {
+        "time": "01-08-2026 06:09 PM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H2SO4?\""
+    },
+    {
+        "time": "01-08-2026 12:52 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain the difference between HCl \r\nand H\u2082SO\u2084. Also tell me about...\""
+    },
+    {
+        "time": "01-08-2026 12:41 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H2SO4?\""
+    },
+    {
+        "time": "01-08-2026 12:24 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H2SO4?\""
+    },
+    {
+        "time": "01-08-2026 12:18 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H2SO4?\""
+    },
+    {
+        "time": "01-08-2026 12:18 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"What is H2SO4?\""
+    },
+    {
+        "time": "01-08-2026 12:13 AM",
+        "module": "AI Assistant",
+        "activity": "Asked: \"Explain Green Chemistry.\""
     }
 ]

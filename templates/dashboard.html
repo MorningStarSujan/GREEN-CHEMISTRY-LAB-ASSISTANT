@@ -17,55 +17,72 @@
     <!-- Sidebar -->
 
     <aside class="sidebar">
-
+        
         <div class="logo">
-
-            <i class="fa-solid fa-flask"></i>
-
-            <span>Green Lab</span>
-
-        </div>
+            
+        <button 
+            id="sidebarToggle"
+            class="sidebar-toggle"
+            aria-label="Toggle Sidebar">
+            <i class="fa-solid fa-bars"></i>
+        
+        </button>
+        
+        <i class="fa-solid fa-flask logo-icon"></i>
+        
+        <span class="logo-text">Green Lab</span>
+    
+    </div>
 
         <nav>
-
-            <a href="/dashboard" class="active">
+            
+            <a href="/dashboard"
+                class="active"
+                data-tooltip="Dashboard">
                 <i class="fa-solid fa-house"></i>
-                Dashboard
+                <span>Dashboard</span>
             </a>
 
-            <a href="/chatbot">
+            <a href="/chatbot"
+                data-tooltip="AI Assistant">
                 <i class="fa-solid fa-robot"></i>
-                AI Assistant
+                <span>AI Assistant</span>
             </a>
 
-            <a href="/experiment">
+            <a href="/experiment"
+                data-tooltip="Experiments">
                 <i class="fa-solid fa-vials"></i>
-                Experiments
+                <span>Experiments</span>
             </a>
 
-            <a href="/recommendation">
+            <a href="/recommendation"
+                data-tooltip="Green Tips">
                 <i class="fa-solid fa-leaf"></i>
-                Green Tips
+                <span>Green Tips</span>
             </a>
 
-            <a href="/safety">
+            <a href="/safety"
+                data-tooltip="Safety">
                 <i class="fa-solid fa-shield-halved"></i>
-                Safety
+                <span>Safety</span>
             </a>
 
-            <a href="/calculator">
+            <a href="/calculator"
+                data-tooltip="Calculator">
                 <i class="fa-solid fa-calculator"></i>
-                Calculator
+                <span>Calculator</span>
             </a>
 
-            <a href="/history">
+            <a href="/history"
+                data-tooltip="History">
                 <i class="fa-solid fa-clock-rotate-left"></i>
-                History
+                <span>History</span>
             </a>
 
-            <a href="/about">
+            <a href="/about"
+                data-tooltip="About">
                 <i class="fa-solid fa-circle-info"></i>
-                About
+                <span>About</span>
             </a>
 
         </nav>

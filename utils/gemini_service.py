@@ -1,140 +1,51 @@
 import os
+import time
+
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+
 from utils.chat_memory import add_message, get_context
 from utils.cache import get_cached_response, save_cached_response
+from utils.ai_identity import AI_IDENTITY
 
-# Load .env file
+# -----------------------------
+# Load Environment
+# -----------------------------
+
 load_dotenv()
 
-# Read API key
 API_KEY = os.getenv("GEMINI_API_KEY")
 
-if not API_KEY:
-    raise ValueError("Gemini API Key not found. Check your .env file.")
+print("\n========== API KEY CHECK ==========")
+print(API_KEY)
+print("===================================\n")
 
-# Create Gemini client
+if not API_KEY:
+    raise ValueError("Gemini API Key not found.")
+
 client = genai.Client(api_key=API_KEY)
 
 
-def ask_gemini(question, context=None):
-    """
-    Ask Gemini using optional local chemistry context.
-    """
+# -----------------------------
+# Build Prompt
+# -----------------------------
 
-    # Block non-chemistry questions
-    chemistry_keywords = [
-        "chemistry",
-        "chemical",
-        "acid",
-        "base",
-        "lab",
-        "laboratory",
-        "experiment",
-        "reaction",
-        "molecule",
-        "atom",
-        "compound",
-        "green chemistry",
-        "safety",
-        "hazard",
-        "ppe",
-        "disposal",
-        "solvent",
-        "beaker",
-        "flask",
-        "titration",
-        "ph",
-        "alkali",
-        "salt",
-        "organic",
-        "inorganic",
-        "element",
-        "periodic",
-        "solution",
-        "mixture",
-        "acetone",
-        "ethanol",
-        "methanol",
-        "sulfuric",
-        "hydrochloric",
-        "nitric",
-        "sodium",
-        "potassium",
-        "calcium",
-        "hydrogen",
-        "oxygen",
-        "carbon",
-    ]
 
-    question = question.strip()
-    question_lower = question.lower()
-
-    # Check cache first
-    cached = get_cached_response(question)
-
-    if cached:
-        return cached
-
-    if not any(keyword in question_lower for keyword in chemistry_keywords):
-
-        return (
-            "❌ Sorry! I am the Green Chemistry Lab Assistant.\n\n"
-            "I can only answer questions related to:\n"
-            "• Chemistry\n"
-            "• Laboratory Safety\n"
-            "• Green Chemistry\n"
-            "• Chemical Handling\n"
-            "• Experiments\n"
-            "• Waste Disposal\n"
-            "• Environmental Sustainability"
-        )
-
-    system_prompt = """
-You are Green Chemistry Lab Assistant.
-
-You are an expert in:
-• Chemistry
-• Green Chemistry
-• Laboratory Safety
-• Chemical Handling
-• Waste Disposal
-• Environmental Sustainability
-
-Rules:
-
-1. Answer ONLY chemistry-related questions.
-2. If local chemical information is provided, ALWAYS use it as your primary source.
-3. Expand the local information instead of replacing it.
-4. Always include:
-   • Overview
-   • Safety Information
-   • Green Chemistry Tip
-5. Keep answers clear and student-friendly.
-6. Use proper headings and bullet points.
-7. Never use LaTeX.
-8. Write chemical formulas in plain text.
-   Example:
-   - H2SO4
-   - NaOH
-   - CH3COCH3
-"""
+def build_prompt(question, context=None):
 
     prompt = ""
 
-    # Add local database information
     if context:
         prompt += f"""
 Local Chemical Information
 
 {context}
 
-------------------------
+----------------------------------------
 
 """
 
-    # Add previous conversation
     conversation = get_context()
 
     prompt += f"""
@@ -142,37 +53,103 @@ Conversation History
 
 {conversation}
 
-------------------------
+----------------------------------------
 
 Current User Question
 
 {question}
 """
 
+    return prompt
+
+
+# -----------------------------
+# Normal Gemini Response
+# -----------------------------
+
+
+def ask_gemini(question, context=None):
+
+    cached = get_cached_response(question)
+
+    if cached:
+        return cached
+
+    prompt = build_prompt(question, context)
+
     try:
 
-        response = client.models.generate_content(
+        start = time.time()
+
+        response = client.models.generate_content_stream(
             model="gemini-3.6-flash",
             contents=prompt,
-            config=types.GenerateContentConfig(system_instruction=system_prompt),
+            config=types.GenerateContentConfig(system_instruction=AI_IDENTITY),
         )
+
+        answer = ""
+
+        for chunk in response:
+
+            if chunk.text:
+                answer += chunk.text
+
+        print(f"Gemini Response Time: {time.time() - start:.2f}s")
+
     except Exception as e:
-        print("Gemini Error:", e)
+
+        print("\n========== GEMINI ERROR ==========")
+        print(type(e))
+        print(e)
+        print("==================================\n")
 
         return (
-            "⚠️ AI service is temporarily unavailable.\n\n"
-            "The Gemini API request limit has been reached.\n"
-            "Please wait about a minute and try again."
+            "⚠️ Gemini is temporarily unavailable.\n\n" "Please try again in a moment."
         )
 
-    # Save conversation
-    answer = response.text
-
-    # Save in cache
     save_cached_response(question, answer)
 
-    # Save conversation
     add_message("User", question)
     add_message("Assistant", answer)
 
     return answer
+
+
+# -----------------------------
+# Streaming Gemini Response
+# -----------------------------
+
+
+def ask_gemini_stream(question, context=None):
+
+    prompt = build_prompt(question, context)
+
+    try:
+
+        response = client.models.generate_content_stream(
+            model="gemini-3.6-flash",
+            contents=prompt,
+            config=types.GenerateContentConfig(system_instruction=AI_IDENTITY),
+        )
+
+        full_answer = ""
+
+        for chunk in response:
+
+            if chunk.text:
+                full_answer += chunk.text
+                yield chunk.text
+
+        save_cached_response(question, full_answer)
+
+        add_message("User", question)
+        add_message("Assistant", full_answer)
+
+    except Exception as e:
+
+        print("\n========== GEMINI ERROR ==========")
+        print(type(e))
+        print(e)
+        print("==================================\n")
+
+        yield "⚠️ Gemini is temporarily unavailable.\nPlease try again in a moment."
